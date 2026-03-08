@@ -44,7 +44,7 @@
 			{
 				"language": "quint",
 				"scopeName": "source.quint",
-				"path": "./syntaxes/quint.tmLanguage.json",
+				"path": "./syntaxes/quint.tmLanguage.json"
 			},
 			{
 				"language": "quint-injection",

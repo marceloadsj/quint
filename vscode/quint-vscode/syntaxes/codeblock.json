@@ -7,7 +7,7 @@
 		}
 	],
 	"repository": {
-		"superjs-code-block": {
+		"quint-code-block": {
 			"begin": "(^|\\G)(\\s*)(\\`{3,}|~{3,})\\s*(?i:(quint)(\\s+[^`~]*)?$)",
 			"name": "markup.fenced_code.block.markdown",
 			"end": "(^|\\G)(\\2|\\s{0,3})(\\3)\\s*$",
@@ -34,7 +34,7 @@
 					"contentName": "meta.embedded.block.quint",
 					"patterns": [
 						{
-							"include": "quint"
+							"include": "source.quint"
 						}
 					]
 				}

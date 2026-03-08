@@ -38,6 +38,9 @@
 					"light": "./icons/logo-dark.png",
 					"dark": "./icons/logo-light.png"
 				}
+			},
+			{
+				"id": "quint-injection"
 			}
 		],
 		"grammars": [

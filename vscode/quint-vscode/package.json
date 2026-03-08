@@ -45,9 +45,17 @@
 				"language": "quint",
 				"scopeName": "source.quint",
 				"path": "./syntaxes/quint.tmLanguage.json",
+			},
+			{
+				"language": "quint-injection",
+				"scopeName": "markdown.quint.codeblock",
+        		"path": "./syntaxes/codeblock.json",
 				"injectTo": [
           			"text.html.markdown"
-        		]
+        		],
+        		"embeddedLanguages": {
+          			"meta.embedded.block.quint": "quint"
+        		}
 			}
 		]
 	},
